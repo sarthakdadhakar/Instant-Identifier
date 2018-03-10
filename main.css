@@ -1,0 +1,70 @@
+#main-contents
+{
+	display: block;
+	width: 100% !important;
+	background: blue !important;
+}
+#grandcontainer
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.p-container
+{
+	display: inline-block;
+  	width: 46%;
+  	margin: 2%;
+  	padding: 10px;
+  	border-radius: 5px;
+  	background: #fff;
+  	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
+  	box-sizing: border-box;
+}
+.p-container:hover
+{
+  box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.1);
+}
+.p-title
+{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.p-desc
+{
+	width: 100%;
+  text-align: justify;
+  font-size: 12px;
+}
+img.p-img
+{
+	width: 70px;
+	height: 70px;
+  display: block;
+  margin: 20px;
+  border-radius: 50%;
+}
+.p-link
+{
+	display: block;
+  font-size: 12px;
+  margin-top: 25px;
+  color: hsl(3, 81.8%, 49.6%);
+}
+
+a:visited,a:hover
+{
+	color: hsl(3, 81.8%, 49.6%);
+}
+
+.head-title
+{
+	display: block;
+	font-size: 25px;
+	margin: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: grey;
+}
+

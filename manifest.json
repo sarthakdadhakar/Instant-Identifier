@@ -1,0 +1,20 @@
+{
+  "manifest_version": 21,
+
+  "name": "Instant-Identifier",
+  "version": "0.1.0",
+  "description": "Near Real Time face detection",
+
+  "content_scripts": [{
+    "css": ["main.css","loader.css"],
+    "js": ["jquery.js","lost.js","face.js","ccv.js"],
+    "matches": ["https://www.youtube.com/*"],
+      "run_at": "document_end"
+  }],
+  "icons": { "16": "16.png",
+           "48": "32.png",
+          "128": "128.png" },
+   "permissions": [
+    "contentSettings","tabs", "https://www.youtube.com/*", "activeTab","http://*/*","https://instant-identifier.herokuapp.com/*"
+  ]
+}
