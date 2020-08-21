@@ -136,15 +136,4 @@ function addData(grandparent,parid,title,description,image_url,wiki_url)
 		var g = document.getElementById("grandcontainer");
 		g.appendChild(parent);
 		console.log('sabka baapppppp');
-			// var node = document.createElement("h1");
-			// var text = document.createTextNode("sdsdsdddddddddddddddddd");
-			// node.appendChild(text);
-			// console.dir(node);
-			// parent.insertBefore(node,parent.firstChild);
 }
-
-// document.addEventListener("DOMContentLoaded", function(){
-
-
-
-// });
